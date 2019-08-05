@@ -17,7 +17,7 @@ def egcd(a, b, x, y, g):
 
 def main():
     print('This is a program to implement the affine cryptographic algorithm')
-    print('This implementation does first the addition and then the multiplication for encryption and vice versa for decryption, another version of this algorithm would be possible where first you do multiplication and the addition')
+    print('This implementation does first the addition and then the multiplication for encryption and vice versa for decryption, another version of this algorithm would be possible where first you do multiplication and then the addition')
     plaintext = input('Please enter the message text to decrypt\n')
     plaintext = plaintext.lower()
     a_key = int(input('Please enter the key for the additive part\n'))

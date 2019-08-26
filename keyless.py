@@ -2,6 +2,7 @@ print('Rail Fence Cipher with 2 rows so as to make it keyless')
 plaintext = input('Message text:')
 n = len(plaintext)
 encrypted = ''
+print('Encrypting...')
 for i in range(n):
 	if n%2 == 0:
 		if i<n//2:
@@ -31,6 +32,7 @@ print('Encrypted message', encrypted)
 '''
 
 #Now to decrypt
+print('Decrypting...')
 n = len(encrypted)
 decrypted = ''
 pair = 0

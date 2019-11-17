@@ -58,7 +58,7 @@ def main():
 		plaintext3.append(chr(CRT(tempo2[i], tempo3[i], p, q)%n+97))
 		plaintext4.append(chr(CRT(tempo2[i], tempo4[i], p, q)%n+97))
 
-	print("Posible characters are(at least one would be correct from each line)\n")
+	print("Posible characters are(in each position at least one character would be correct from the lines)\n")
 	print("".join(plaintext1))
 	print("".join(plaintext2))
 	print("".join(plaintext3))
